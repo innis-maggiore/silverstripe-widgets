@@ -3,10 +3,10 @@
 namespace SilverStripe\Widgets\Model;
 
 use SilverStripe\Control\Controller;
-use SilverStripe\ORM\ArrayList;
+use SilverStripe\Model\List\ArrayList;
 use SilverStripe\ORM\DataObject;
 use SilverStripe\ORM\HasManyList;
-use SilverStripe\ORM\SS_List;
+use SilverStripe\Model\List\SS_List;
 use SilverStripe\Versioned\Versioned;
 
 /**

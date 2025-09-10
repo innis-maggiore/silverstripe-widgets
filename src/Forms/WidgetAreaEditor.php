@@ -7,8 +7,9 @@ use SilverStripe\Core\ClassInfo;
 use SilverStripe\Core\Config\Config;
 use SilverStripe\Core\Injector\Injector;
 use SilverStripe\Forms\FormField;
-use SilverStripe\ORM\ArrayList;
+use SilverStripe\Model\List\ArrayList;
 use SilverStripe\ORM\DataObjectInterface;
+use SilverStripe\ORM\HasManyList;
 use SilverStripe\View\Requirements;
 use SilverStripe\Widgets\Model\Widget;
 

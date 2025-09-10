@@ -4,7 +4,7 @@ namespace SilverStripe\Widgets\Extensions;
 
 use SilverStripe\Forms\CheckboxField;
 use SilverStripe\Forms\FieldList;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Widgets\Forms\WidgetAreaEditor;
 use SilverStripe\Widgets\Model\WidgetArea;
 
@@ -17,7 +17,7 @@ use SilverStripe\Widgets\Model\WidgetArea;
  * feel free to create your own relationships, naming conventions, etc.
  * without using this class.
  */
-class WidgetPageExtension extends DataExtension
+class WidgetPageExtension extends Extension
 {
     private static $db = [
         'InheritSideBar' => 'Boolean',
