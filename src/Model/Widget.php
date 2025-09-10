@@ -95,7 +95,7 @@ class Widget extends DataObject
      * Default way to render widget in templates.
      * @return string HTML
      */
-    public function forTemplate($holder = true)
+    public function forTemplate($holder = true): string
     {
         if ($holder) {
             return $this->WidgetHolder();

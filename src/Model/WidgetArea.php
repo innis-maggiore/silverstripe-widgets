@@ -78,7 +78,7 @@ class WidgetArea extends DataObject
     /**
      * @return string - HTML
      */
-    public function forTemplate()
+    public function forTemplate(): string
     {
         return $this->renderWith($this->template);
     }
