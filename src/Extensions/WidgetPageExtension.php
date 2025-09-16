@@ -41,6 +41,7 @@ class WidgetPageExtension extends Extension
 
     public function updateCMSFields(FieldList $fields)
     {
+	$fields->removeByName("SidebarID");
         $fields->addFieldToTab(
             "Root.Widgets",
             new CheckboxField("InheritSideBar", _t(__CLASS__ . '.INHERITSIDEBAR', 'Inherit Sidebar From Parent'))
